@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Dra. Ivete Hafemann | Gastroenterologista Integrativa e Longevidade em Curitiba</title>
+<meta name="description" content="Gastroenterologia Integrativa e Funcional e Medicina Integrativa em Curitiba. Foco em saúde intestinal e longevidade. Agende sua consulta.">
+<meta name="keywords" content="Gastroenterologista Integrativa e Funcional, Medicina Integrativa e Funcional, Longevidade em Curitiba, Dra Ivete Hafemann">
+    <meta name="description" content="Dra. Ivete Hafemann, médica gastroenterologista em Curitiba/PR. Tratamento de gastrite, refluxo, síndrome do intestino irritável e gordura no fígado. CRM-PR 11.950.">
+    <meta name="keywords" content="Gastroenterologista Curitiba, Médica gastroenterologista Curitiba, Dra Ivete Hafemann, Gastrite Curitiba, Refluxo Curitiba, Exames digestivos Curitiba">
+    
+
+
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-title">Dra. Ivete Hafemann</span>
+                <span class="logo-subtitle">Gastroenterologia — Curitiba</span>
+            </a>
+
+            <nav class="nav-desktop">
+                <a href="#sobre">Sobre</a>
+                <a href="#especialidade">Especialidade</a>
+                <a href="#doencas">Doenças Tratadas</a>
+                <a href="#atendimento">Atendimento</a>
+                <a href="#convenios">Convênios</a>
+                <a href="#localizacao">Localização</a>
+            </nav>
+
+            <button onclick="iniciarAgendamento('Consulta Gastroenterológica')" class="btn btn-primary btn-header">
+                <i data-lucide="calendar"></i> Agendar Consulta
+            </button>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#sobre">Sobre</a>
+            <a href="#especialidade">Especialidade</a>
+            <a href="#doencas">Doenças Tratadas</a>
+            <a href="#atendimento">Atendimento</a>
+            <a href="#convenios">Convênios</a>
+            <a href="#localizacao">Localização</a>
+            <button onclick="iniciarAgendamento('Consulta Gastroenterológica')" class="btn btn-primary w-full">
+                <i data-lucide="calendar"></i> Agendar Consulta
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i data-lucide="award"></i> CRM-PR 11.950 | RQE 24146 / 6103
+                </div>
+                <h1 class="hero-title">Cuidado especializado para a saúde do seu <span>sistema digestivo</span>.</h1>
+                <p class="hero-description">Atendimento gastroenterológico humanizado em Curitiba, focado em diagnóstico preciso, prevenção e acompanhamento contínuo.</p>
+                <div class="hero-actions">
+                    <button onclick="iniciarAgendamento('Consulta')" class="btn btn-whatsapp">
+                        <i data-lucide="message-circle"></i> Agendar via WhatsApp
+                    </button>
+                    <a href="#sobre" class="btn btn-outline">Conheça a Dra. Ivete</a>
+                </div>
+                <div class="hero-highlights">
+                    <span><i data-lucide="check-circle"></i> Graduada pela UFPR (1989)</span>
+                    <span><i data-lucide="globe"></i> Consultas em 4 idiomas</span>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="card-image">
+                    <img src="img/dra-ivete.jpeg" alt="Dra. Ivete Hafemann Gastroenterologista em Curitiba">
+                    <div class="card-image-info">
+                        <h3>Dra. Ivete Hafemann</h3>
+                        <p>Gastroenterologista em Curitiba/PR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section bg-white">
+        <div class="container grid-2">
+            <div class="sobre-text">
+                <span class="section-tag">Perfil Profissional</span>
+                <h2 class="section-title">Conheça a Dra. Ivete Hafemann</h2>
+                <p>A Dra. Ivete Hafemann é médica gastroenterologista formada pela Universidade Federal do Paraná (UFPR) em 1989.</p>
+                <p>Possui sólida trajetória profissional com atuação no Instituto de Medicina e Cirurgia do Paraná. Seu trabalho em Curitiba é direcionado ao atendimento humanizado, investigação detalhada e tratamento individualizado das doenças do aparelho digestivo.</p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <strong>UFPR 1989</strong>
+                        <span>Formação Acadêmica</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>Inst. Med. e Cirurgia</strong>
+                        <span>Experiência Profissional</span>
+                    </div>
+                </div>
+            </div>
+            <div class="languages-card">
+                <h3 class="languages-title">Atendimento Multilíngue</h3>
+                <p></p>
+                <ul class="languages-list">
+                    <li><i data-lucide="check"></i> Português</li>
+                    <li><i data-lucide="check"></i> Alemão</li>
+                    <li><i data-lucide="check"></i> Inglês</li>
+                    <li><i data-lucide="check"></i> Espanhol</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Atendimento e Estrutura Local -->
+    <section id="atendimento" class="section bg-surface">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Atendimento Presencial E Teleconsulta</span>
+                <h2 class="section-title">Estrutura e Cuidado em Curitiba</h2>
+                <p class="section-desc">Ambiente acolhedor no Bairro Rebouças, preparado para oferecer o suporte necessário para sua saúde digestiva.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="calendar-check"></i></div>
+                    <h3>Agendamento Rápido</h3>
+                    <p>Solicite seu horário diretamente pelo WhatsApp sem complicação e receba todas as orientações.</p>
+                </div>
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="clock"></i></div>
+                    <h3>Consulta Detalhada</h3>
+                    <p>Atendimento focado na escuta atenta, avaliação do histórico e conduta terapêutica personalizada.</p>
+                </div>
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="car"></i></div>
+                    <h3>Fácil Acesso</h3>
+                    <p>Localização estratégica na Av. Iguaçu, próxima aos bairros Batel, Água Verde e Centro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidade" class="section bg-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Área de Atuação</span>
+                <h2 class="section-title">Gastroenterologia</h2>
+                <p class="section-desc">Especialidade voltada para prevenção, diagnóstico e acompanhamento das condições do sistema digestório.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i data-lucide="activity"></i></div>
+                    <h3>Aparelho Digestivo</h3>
+                    <p>Avaliação e acompanhamento do esôfago, estômago, intestinos, fígado e vias biliares.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i data-lucide="shield-check"></i></div>
+                    <h3>Prevenção de Neoplasias</h3>
+                    <p>Exames e rastreamento preventivo para neoplasias gástricas, abdominais e intestinais.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i data-lucide="apple"></i></div>
+                    <h3>Intolerâncias Alimentares</h3>
+                    <p>Diagnóstico e manejo da Doença Celíaca, intolerância à lactose e sensibilidades alimentares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doenças Tratadas (Accordions) -->
+    <section id="doencas" class="section bg-surface">
+        <div class="container container-narrow">
+            <div class="section-header text-center">
+                <span class="section-tag">Diagnóstico e Tratamento</span>
+                <h2 class="section-title">Doenças e Condições Tratadas</h2>
+                <p class="section-desc">Clique nas categorias abaixo para expandir as condições de saúde atendidas no consultório.</p>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span>Estômago</span>
+                        <i data-lucide="chevron-down" class="acc-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="tags-grid">
+                            <span>Gastrite</span>
+                            <span>Gastrite Atrófica</span>
+                            <span>Úlcera Gástrica e Péptica</span>
+                            <span>Gastroparesia</span>
+                            <span>Dispepsia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span>Esôfago</span>
+                        <i data-lucide="chevron-down" class="acc-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="tags-grid">
+                            <span>Refluxo Gastroesofágico</span>
+                            <span>Esofagite</span>
+                            <span>Esôfago de Barrett</span>
+                            <span>Esofagite Eosinofílica</span>
+                            <span>Disfagia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span>Intestino</span>
+                        <i data-lucide="chevron-down" class="acc-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="tags-grid">
+                            <span>Síndrome do Intestino Irritável</span>
+                            <span>Constipação Intestinal</span>
+                            <span>Doença de Crohn</span>
+                            <span>Retocolite Ulcerativa</span>
+                            <span>Colite e Disbiose</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span>Fígado e Intolerâncias</span>
+                        <i data-lucide="chevron-down" class="acc-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="tags-grid">
+                            <span>Esteatose Hepática (Gordura no Fígado)</span>
+                            <span>Hepatopatias</span>
+                            <span>Intolerância à Lactose</span>
+                            <span>Doença Celíaca</span>
+                            <span>Sensibilidade ao Glúten</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Localização e Contato -->
+    <section id="localizacao" class="section bg-surface">
+        <div class="container grid-2">
+            <div class="contact-info">
+                <span class="section-tag">Consultório</span>
+                <h2 class="section-title">Localização em Curitiba</h2>
+                <div class="info-item">
+                    <i data-lucide="map-pin"></i>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>Avenida Iguaçu, 1236 — Bairro Rebouças, Curitiba/PR</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i data-lucide="clock"></i>
+                    <div>
+                        <h4>Horários de Atendimento</h4>
+                        <p>Mediante agendamento prévio.</p>
+                    </div>
+                </div>
+                <button onclick="iniciarAgendamento('Informações de Consulta')" class="btn btn-whatsapp w-full">
+                    <i data-lucide="message-circle"></i> Falar no WhatsApp do Consultório
+                </button>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.831778170247!2d-49.278912!3d-25.443912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46e5b5e332d%3A0x1e8609804b7b25e1!2sAv.%20Igua%C3%A7u%2C%201236%20-%20Rebou%C3%A7as%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <p class="footer-brand">Dra. Ivete Hafemann</p>
+                <p class="footer-sub">Gastroenterologia | CRM-PR 11.950 — RQE 24146 / 6103</p>
+                <p class="footer-sub">Avenida Iguaçu, 1236 — Curitiba/PR</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Todos os direitos reservados.</p>
+                <p>Em conformidade com as diretrizes do CFM e LGPD.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <button onclick="iniciarAgendamento('Atendimento Rápido')" class="whatsapp-float" aria-label="WhatsApp">
+        <i data-lucide="message-circle"></i>
+    </button>
+
+    <!-- Script Principal -->
+    <script src="script.js"></script>
+</body>
+</html>
