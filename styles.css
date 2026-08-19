@@ -1,14 +1,14 @@
 /* Variáveis do Sistema de Design */
 :root {
-    --color-brand-primary: #526f63;
-    --color-brand-hover: #3d594f;
-    --color-brand-dark: #263b35;
-    --color-brand-light: #f5f2eb;
-    --color-gold: #c8b79f;
-    --color-bg-surface: #faf9f6;
-    --color-text-dark: #263b35;
-    --color-text-muted: #414643;
-    --color-border: #e2ded5;
+    --color-brand-primary: #1b4332;
+    --color-brand-hover: #2d6a4f;
+    --color-brand-dark: #081c15;
+    --color-brand-light: #f4f7f4;
+    --color-gold: #d4af37;
+    --color-bg-surface: #f9f9f6;
+    --color-text-dark: #1a1e1b;
+    --color-text-muted: #525b56;
+    --color-border: #e2e8e4;
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
 }
