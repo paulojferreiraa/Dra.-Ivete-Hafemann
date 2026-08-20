@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // 4. Integração Dinâmica com WhatsApp (Curitiba/PR)
 function iniciarAgendamento(assunto = 'Consulta Gastroenterológica') {
     // Insira o número oficial com DDD 41 no lugar do modelo abaixo:
-    const telefone = '5541999999999'; 
+    const telefone = '554191872709'; 
     const mensagem = `Olá! Gostaria de obter informações sobre agendamento de ${assunto} com a Dra. Ivete Hafemann em Curitiba.`;
     const url = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
     

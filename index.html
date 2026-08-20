@@ -48,7 +48,6 @@
                 <a href="#especialidade">Especialidade</a>
                 <a href="#doencas">Doenças Tratadas</a>
                 <a href="#atendimento">Atendimento</a>
-                <a href="#convenios">Convênios</a>
                 <a href="#localizacao">Localização</a>
             </nav>
 
@@ -66,7 +65,6 @@
             <a href="#especialidade">Especialidade</a>
             <a href="#doencas">Doenças Tratadas</a>
             <a href="#atendimento">Atendimento</a>
-            <a href="#convenios">Convênios</a>
             <a href="#localizacao">Localização</a>
             <button onclick="iniciarAgendamento('Consulta Gastroenterológica')" class="btn btn-primary w-full">
                 <i data-lucide="calendar"></i> Agendar Consulta
@@ -79,10 +77,15 @@
         <div class="container hero-container">
             <div class="hero-content">
                 <div class="badge">
-                    <i data-lucide="award"></i> CRM-PR 11.950 | RQE 24146 / 6103
+                    <i data-lucide="award"></i> CRM-PR 11.950 | RQE 24146
                 </div>
-                <h1 class="hero-title">Cuidado especializado para a saúde do seu <span>sistema digestivo</span>.</h1>
-                <p class="hero-description">Atendimento gastroenterológico humanizado em Curitiba, focado em diagnóstico preciso, prevenção e acompanhamento contínuo.</p>
+               <h1 class="hero-title">
+    Cuidado especializado para a saúde do seu <span>sistema digestivo</span>.
+</h1>
+
+<p class="hero-description">
+    Foco em <strong>diagnóstico, medicina funcional e integrativa</strong>, buscando o equilíbrio do organismo, a prevenção e uma vida com mais <strong>saúde e longevidade</strong>.
+</p>
                 <div class="hero-actions">
                     <button onclick="iniciarAgendamento('Consulta')" class="btn btn-whatsapp">
                         <i data-lucide="message-circle"></i> Agendar via WhatsApp
@@ -91,6 +94,7 @@
                 </div>
                 <div class="hero-highlights">
                     <span><i data-lucide="check-circle"></i> Graduada pela UFPR (1989)</span>
+
                     <span><i data-lucide="globe"></i> Consultas em 4 idiomas</span>
                 </div>
             </div>
@@ -106,94 +110,111 @@
         </div>
     </section>
 
-    <!-- Sobre Section -->
-    <section id="sobre" class="section bg-white">
-        <div class="container grid-2">
-            <div class="sobre-text">
-                <span class="section-tag">Perfil Profissional</span>
-                <h2 class="section-title">Conheça a Dra. Ivete Hafemann</h2>
-                <p>A Dra. Ivete Hafemann é médica gastroenterologista formada pela Universidade Federal do Paraná (UFPR) em 1989.</p>
-                <p>Possui sólida trajetória profissional com atuação no Instituto de Medicina e Cirurgia do Paraná. Seu trabalho em Curitiba é direcionado ao atendimento humanizado, investigação detalhada e tratamento individualizado das doenças do aparelho digestivo.</p>
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <strong>UFPR - 1989</strong>
-                        <span>Formação Acadêmica</span>
-                    </div>
-                    <div class="stat-card">
-                        <strong>Instituto de Medicina e Cirurgia</strong>
-                        <span>Experiência Profissional</span>
-                    </div>
-                </div>
-            </div>
-            <div class="languages-card">
-                <h3 class="languages-title">Atendimento Multilíngue</h3>
-                <p></p>
-                <ul class="languages-list">
-                    <li><i data-lucide="check"></i> Português</li>
-                    <li><i data-lucide="check"></i> Alemão</li>
-                    <li><i data-lucide="check"></i> Inglês</li>
-                    <li><i data-lucide="check"></i> Espanhol</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+  <!-- Sobre Section -->
+<section id="sobre" class="section bg-white">
+    <div class="container grid-2">
+        <div class="sobre-text">
+            <span class="section-tag">Perfil Profissional</span>
+            <h2 class="section-title">Conheça a Dra. Ivete Hafemann</h2>
+            
+            <p>
+                A <strong>Dra. Ivete Hafemann</strong> é médica gastroenterologista graduada pela <strong>Universidade Federal do Paraná (UFPR) em 1989</strong>, com ampla trajetória e experiência clínica no Instituto de Medicina e Cirurgia do Paraná.
+            </p>
+            
+            <p>
+                Buscando uma visão expandida da saúde, especializou-se em <strong>Pós-Graduação em Adequação Nutricional e Manutenção da Homeostase — Prevenção e Tratamento de Doenças Relacionadas à Idade</strong>.
+            </p>
+            
+            <p>
+                Sua atuação em Curitiba une a excelência da gastroenterologia tradicional à medicina funcional, focando na investigação profunda da causa raiz dos sintomas para promover o equilíbrio da microbiota, a saúde metabólica e a longevidade.
+            </p>
 
-    <!-- Seção de Atendimento e Estrutura Local -->
-    <section id="atendimento" class="section bg-surface">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">Atendimento Presencial E Teleconsulta</span>
-                <h2 class="section-title">Estrutura e Cuidado em Curitiba</h2>
-                <p class="section-desc">Ambiente acolhedor no Bairro Rebouças, preparado para oferecer o suporte necessário para sua saúde digestiva.</p>
-            </div>
-
-            <div class="cards-grid">
-                <div class="feature-card text-center">
-                    <div class="icon-box margin-auto"><i data-lucide="calendar-check"></i></div>
-                    <h3>Agendamento Rápido</h3>
-                    <p>Solicite seu horário diretamente pelo WhatsApp sem complicação e receba todas as orientações.</p>
+            <!-- Card Compacto: Atendimento Multilíngue (Abaixo do Texto) -->
+            <div class="languages-card-compact mt-4">
+                <div class="languages-header">
+                    <i data-lucide="globe"></i>
+                    <h3>Atendimento Multilíngue</h3>
                 </div>
-                <div class="feature-card text-center">
-                    <div class="icon-box margin-auto"><i data-lucide="clock"></i></div>
-                    <h3>Consulta Detalhada</h3>
-                    <p>Atendimento focado na escuta atenta, avaliação do histórico e conduta terapêutica personalizada.</p>
-                </div>
-                <div class="feature-card text-center">
-                    <div class="icon-box margin-auto"><i data-lucide="car"></i></div>
-                    <h3>Fácil Acesso</h3>
-                    <p>Localização estratégica na Av. Iguaçu, próxima aos bairros Batel, Água Verde e Centro.</p>
+                <p>Consultas com fluência para pacientes nacionais e internacionais:</p>
+                <div class="languages-tags">
+                    <span><i data-lucide="check"></i> Português</span>
+                    <span><i data-lucide="check"></i> Alemão</span>
+                    <span><i data-lucide="check"></i> Inglês</span>
+                    <span><i data-lucide="check"></i> Espanhol</span>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="sobre-sidebar">
+            <!-- Destaques das Credenciais -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="graduation-cap"></i></div>
+                <h3>Formação &amp; Especialização</h3>
+                <p>Graduação pela UFPR (1989) e Pós-Graduação em Adequação Nutricional e Homeostase, focada na prevenção e longevidade.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="building-2"></i></div>
+                <h3>Experiência</h3>
+                <p>Sólida experiência clínica e hospitalar, com atuação no Instituto de Medicina e Cirurgia do Paraná, Hospital Santa Cruz e Hospital Erasto Gaertner, incluindo experiência em UTI, urgências e emergências médicas e acompanhamento de condições do aparelho digestivo.
+
+Atualmente, atua com foco em consultório, dedicando-se ao diagnóstico e à medicina funcional e integrativa, com uma abordagem individualizada voltada ao equilíbrio do organismo, prevenção, saúde e longevidade.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
 
     <!-- Especialidades -->
-    <section id="especialidade" class="section bg-white">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">Área de Atuação</span>
-                <h2 class="section-title">Gastroenterologia</h2>
-                <p class="section-desc">Especialidade voltada para prevenção, diagnóstico e acompanhamento das condições do sistema digestório.</p>
+ <section id="especialidade" class="section bg-white">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-tag">Área de Atuação</span>
+            <h2 class="section-title">Gastroenterologia &amp; Medicina Integrativa</h2>
+            <p class="section-desc">Especialidade voltada para prevenção, diagnóstico, saúde intestinal e longevidade através de uma abordagem individualizada.</p>
+        </div>
+        
+        <div class="cards-grid">
+            <!-- Aparelho Digestivo -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="activity"></i></div>
+                <h3>Aparelho Digestivo</h3>
+                <p>Avaliação e acompanhamento do esôfago, estômago, intestinos, fígado e vias biliares.</p>
             </div>
-            <div class="cards-grid">
-                <div class="feature-card">
-                    <div class="icon-box"><i data-lucide="activity"></i></div>
-                    <h3>Aparelho Digestivo</h3>
-                    <p>Avaliação e acompanhamento do esôfago, estômago, intestinos, fígado e vias biliares.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon-box"><i data-lucide="shield-check"></i></div>
-                    <h3>Prevenção de Neoplasias</h3>
-                    <p>Exames e rastreamento preventivo para neoplasias gástricas, abdominais e intestinais.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon-box"><i data-lucide="apple"></i></div>
-                    <h3>Intolerâncias Alimentares</h3>
-                    <p>Diagnóstico e manejo da Doença Celíaca, intolerância à lactose e sensibilidades alimentares.</p>
-                </div>
+            
+            <!-- SAM -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="shield-alert"></i></div>
+                <h3>Síndrome de Ativação Mastocitária (SAM)</h3>
+                <p>Investigação e manejo integrativo da hiperreatividade mastocitária, tratando inflamações crônicas, intolerâncias alimentares e reações multissistêmicas sem causa aparente.</p>
+            </div>
+
+            <!-- Prevenção de Neoplasias -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="shield-check"></i></div>
+                <h3>Prevenção de Neoplasias</h3>
+                <p>Exames e rastreamento preventivo para neoplasias gástricas, abdominais e intestinais.</p>
+            </div>
+
+            <!-- Intolerâncias Alimentares -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="apple"></i></div>
+                <h3>Intolerâncias Alimentares</h3>
+                <p>Diagnóstico e manejo da Doença Celíaca, intolerância à lactose, sensibilidade à histamina e outras restrições alimentares.</p>
+            </div>
+
+            <!-- Equilíbrio Hormonal e Longevidade -->
+            <div class="feature-card">
+                <div class="icon-box"><i data-lucide="sparkles"></i></div>
+                <h3>Equilíbrio Hormonal e Longevidade</h3>
+                <p>Abordagem integrativa voltada ao equilíbrio hormonal, metabolismo e saúde do organismo, visando mais qualidade de vida, prevenção e longevidade.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+    
 
     <!-- Doenças Tratadas (Accordions) -->
     <section id="doencas" class="section bg-surface">
@@ -253,25 +274,52 @@
                 </div>
 
                 <div class="accordion-item">
-                    <button class="accordion-btn">
-                        <span>Fígado e Intolerâncias</span>
-                        <i data-lucide="chevron-down" class="acc-icon"></i>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="tags-grid">
-                            <span>Esteatose Hepática (Gordura no Fígado)</span>
-                            <span>Hepatopatias</span>
-                            <span>Intolerância à Lactose</span>
-                            <span>Doença Celíaca</span>
-                            <span>Sensibilidade ao Glúten</span>
-                        </div>
-                    </div>
-                </div>
+    <button class="accordion-btn">
+        <span>Saúde Intestinal e Microbiota</span>
+        <i data-lucide="chevron-down" class="acc-icon"></i>
+    </button>
+    <div class="accordion-content">
+        <div class="tags-grid">
+            <span>Disbiose Intestinal</span>
+            <span>Intolerâncias Alimentares</span>
+            <span>Doença Celíaca</span>
+            <span>Sensibilidade ao Glúten</span>
+            <span>Saúde da Microbiota</span>
+        </div>
+    </div>
+</div>
             </div>
         </div>
     </section>
 
-   
+     <!-- Seção de Atendimento e Estrutura Local -->
+    <section id="atendimento" class="section bg-surface">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Atendimento Presencial E Teleconsulta</span>
+                <h2 class="section-title">Estrutura e Cuidado em Curitiba</h2>
+                <p class="section-desc">Ambiente acolhedor no Bairro Rebouças, preparado para oferecer o suporte necessário para sua saúde digestiva.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="calendar-check"></i></div>
+                    <h3>Agendamento Rápido</h3>
+                    <p>Solicite seu horário diretamente pelo WhatsApp sem complicação e receba todas as orientações.</p>
+                </div>
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="clock"></i></div>
+                    <h3>Consulta Detalhada</h3>
+                    <p>Atendimento focado na escuta atenta, avaliação do histórico e conduta terapêutica personalizada.</p>
+                </div>
+                <div class="feature-card text-center">
+                    <div class="icon-box margin-auto"><i data-lucide="car"></i></div>
+                    <h3>Fácil Acesso</h3>
+                    <p>Localização estratégica na Av. Iguaçu, próxima aos bairros Batel, Água Verde e Centro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Localização e Contato -->
     <section id="localizacao" class="section bg-surface">
@@ -308,7 +356,7 @@
         <div class="container footer-container">
             <div>
                 <p class="footer-brand">Dra. Ivete Hafemann</p>
-                <p class="footer-sub">Gastroenterologia | CRM-PR 11.950 — RQE 24146 / 6103</p>
+                <p class="footer-sub">Gastroenterologia | CRM-PR 11.950 — RQE 24146</p>
                 <p class="footer-sub">Avenida Iguaçu, 1236 — Curitiba/PR</p>
             </div>
             <div class="footer-copy">
